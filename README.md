@@ -42,10 +42,20 @@ The term "NFC" refers to a short-range, high-frequency wireless communication te
     |TXD | RXD | UART Connection | 
     |RXD | TXD | UART Connection |
 
-    **Note:** Do cross connection of UART pins if module don't repond or showing connection failed in software application
+    **Note:** Do cross connection of UART pins if module won't respond or showing connection failed in software application
+
+    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/NFCmodule_ttl.png" width="584" height="425">
 
   - Once the NFC Module and USB-TTL converter are connected, attach the converter to the USB port of the computer or laptop and check your COM Port in device manager.
     
     <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/device_manager_comport_view.png" width="584" height="425">
+    
+  - Download software folder provided [here](https://github.com/sbcshop/NFC_Module/tree/main/softwares), and run .exe file, so you will see below interface of software.
+    
+    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/software_interface.png">
+
+  - Click 
+    
+    
 
 
