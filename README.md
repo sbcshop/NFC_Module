@@ -26,24 +26,26 @@ The term "NFC" refers to a short-range, high-frequency wireless communication te
 
 ### Hardware Connection
 
-Here you will need NFC module with any USB to TTL converter, for this guide we are using one which available [here](https://shop.sb-components.co.uk/products/usb-ttl?variant=40312245059667).
+  - Here you will need NFC module with any USB to TTL converter, for this guide we are using one which available [here](https://shop.sb-components.co.uk/products/usb-ttl?variant=40312245059667).
 
-|USB to TTL (CP2102 Variants) | NFC Module | Function |
-|---|---|---|
-|VCC | 5V | Positive Supply |
-|GND | GND | Ground |
-|TXD | TXD | UART Connection | 
-|RXD | RXD | UART Connection |
+    |USB to TTL (CP2102 Variants) | NFC Module | Function |
+    |---|---|---|
+    |VCC | 5V | Positive Supply |
+    |GND | GND | Ground |
+    |TXD | TXD | UART Connection | 
+    |RXD | RXD | UART Connection |
 
-|USB to TTL (CH340 Variants) | NFC Module | Function |
-|---|---|---|
-|VCC | 5V | Positive Supply |
-|GND | GND | Ground |
-|TXD | RXD | UART Connection | 
-|RXD | TXD | UART Connection |
+    |USB to TTL (CH340 Variants) | NFC Module | Function |
+    |---|---|---|
+    |VCC | 5V | Positive Supply |
+    |GND | GND | Ground |
+    |TXD | RXD | UART Connection | 
+    |RXD | TXD | UART Connection |
 
-**Note:** Do cross connection of UART pins if module don't repond or showing connection failed with your USB to TTL.
+    **Note:** Do cross connection of UART pins if module don't repond or showing connection failed in software application
 
-- Once connection done then connect converter to USB port of PC/Laptop and verify your COM Port through device manager
+  - Once the NFC Module and USB-TTL converter are connected, attach the converter to the USB port of the computer or laptop and check your COM Port in device manager.
+    
+    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/device_manager_comport_view.png" width="584" height="425">
 
 
