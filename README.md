@@ -25,6 +25,13 @@ This github provides instructions to get started with NFC module.
 ## Getting Started with NFC module
 ### Pinout 
 
+<img src="https://github.com/sbcshop/NFC_Module/blob/main/images/nfc_pinout.jpg">
+
+- (1) 5V
+- (2) GND
+- (3) RXD
+- (4) TXD
+  
 ### NFC module USB to TTL Hardware Connection
 
   - Here you will need NFC module with any USB to TTL converter, for this guide we are using one which available [here](https://shop.sb-components.co.uk/products/usb-ttl?variant=40312245059667).
