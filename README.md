@@ -24,7 +24,7 @@ The term "NFC" refers to a short-range, high-frequency wireless communication te
 ## Getting Started with NFC module
 ### Pinout 
 
-### Hardware Connection
+### NFC module USB to TTL Hardware Connection
 
   - Here you will need NFC module with any USB to TTL converter, for this guide we are using one which available [here](https://shop.sb-components.co.uk/products/usb-ttl?variant=40312245059667).
 
@@ -44,7 +44,7 @@ The term "NFC" refers to a short-range, high-frequency wireless communication te
 
     **Note:** Do cross connection of UART pins if module won't respond or showing connection failed in software application
 
-    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/NFCmodule_ttl.png" width="584" height="425">
+    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/NFCmodule_ttl.png" width="447" height="321">
 
   - Once the NFC Module and USB-TTL converter are connected, attach the converter to the USB port of the computer or laptop and check your COM Port in device manager.
     
@@ -52,9 +52,46 @@ The term "NFC" refers to a short-range, high-frequency wireless communication te
     
   - Download software folder provided [here](https://github.com/sbcshop/NFC_Module/tree/main/softwares), and run .exe file, so you will see below interface of software.
     
-    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/software_interface.png">
+    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/software_interface.png" width="569" height="293">
 
-  - Click 
+  - Checkout [Manual](https://github.com/sbcshop/NFC_Module/blob/main/documents/NFC%20Module%20Software%20Usage%20Instruction%20Manual.pdf) having instructions how to use NFC module with software for setup and configuration.
+
+ ### NFC module with Raspberry Pi Pico
+   - Follow the below connection to use NFC module with Pico/ Pico W
+     
+      |Pico | NFC Module | Function |
+      |---|---|---|
+      |VBUS | 5V | Positive Supply |
+      |GND | GND | Ground |
+      |GP4 | RX | Serial UART connection |
+      |GP5 | TX  | Serial UART connection |
+
+     <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/NFC_pico_interfacing.png" width="420" height="323">
+     
+   - After this you can follow same example and instructions available on [ReadPi NFC GitHub](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main#example-codes) related to NFC operations.
+
+ ## Resources
+  * [NFC Module Command Manual](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/documents/NFC%20Module%20command%20Manual.pdf)
+  * [NTAG213/215/216 Datasheet](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/documents/NTAG213_215_216.pdf)
+  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
+  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
+
+## Related Products
+   * [ReadPi NFC](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483087443) - ReadPi with 13.56MHz NFC reader/writer powered by Raspberry Pi Pico W
+   * [ReadPi RFID](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - ReadPi with 125KHz RFID powered by Raspberry Pi Pico W
+   * [Raspberry Pi Pico RFID expansion](https://shop.sb-components.co.uk/products/raspberry-pi-pico-rfid-expansion) - RFID expansion board with support to incorporate Pico/Pico W 
+   * [RFID_Breakout](https://shop.sb-components.co.uk/products/rfid-breakout?_pos=5&_sid=fac219786&_ss=r) - RFID breakout for standalone testing and freedom to choose microcontroller as per requirement.
+
+## Product License
+
+This is ***open source*** product. Kindly check LICENSE.md file for more information.
+
+Please contact support@sb-components.co.uk for technical support.
+<p align="center">
+  <img width="360" height="100" src="https://cdn.shopify.com/s/files/1/1217/2104/files/Logo_sb_component_3.png?v=1666086771&width=300">
+</p>     
+     
+
     
     
 
