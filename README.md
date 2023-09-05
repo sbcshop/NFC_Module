@@ -31,7 +31,7 @@ This github provides instructions to get started with NFC module.
 - (2) GND
 - (3) RXD
 - (4) TXD
-  
+
 ### NFC module USB to TTL Hardware Connection
 
   - Here you will need NFC module with any USB to TTL converter, for this guide we are using one which available [here](https://shop.sb-components.co.uk/products/usb-ttl?variant=40312245059667).
@@ -54,6 +54,16 @@ This github provides instructions to get started with NFC module.
 
     <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/NFCmodule_ttl.png" width="447" height="321">
 
+    Other NFC Module pins:
+    | NFC Module | Function |
+    |---|---|
+    | SEL | Reserved |
+    | BUZ | Pulse generated when card scan |
+    | ANT1 | Dual Antenna 1 | 
+    | ANT2 | Dual Antenna 2 |
+    
+     **Note:** BUZ pin -> when a card is detected, the signal goes from a high state to a low state and then back to a high state again.
+    
   - Once the NFC Module and USB-TTL converter are connected, attach the converter to the USB port of the computer or laptop and check your COM Port in device manager.
     
     <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/device_manager_comport_view.png" width="584" height="425">
