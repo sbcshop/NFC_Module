@@ -69,7 +69,9 @@ This github provides instructions to get started with NFC module.
     <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/device_manager_comport_view.png" width="584" height="425">
 
     If you don't have CH340 driver installed in PC/laptop, then checkout [CH340 Driver Installation Manual Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf).
-    
+
+  ### NFC module with Software Application
+  - Once you have connected NFC module with USB to TTL, then follow below steps to configure and test NFC module working with windows based software application.
   - Download software folder provided [here](https://github.com/sbcshop/NFC_Module/tree/main/softwares), and run .exe file, so you will see below interface of software.
     
      <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/software_interface.png">
